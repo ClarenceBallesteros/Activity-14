@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 650px;
+    background-color: yellowgreen;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px white;
+}
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: black;
+    text-shadow: 2px 2px 2px whitesmoke;
+    border-bottom: solid 1px white;
+}
+.main-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user label{
+    width: 95%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+
+}
+.user input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+
+}
+.gen-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.gender{
+    margin: 15px 0;
+    color: black;
+}
+.gender label{
+    padding: 0 20px 0 5px;
+}
+.form-submit{
+    margin-top: 40px;
+}
+.form-submit input{ 
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+}
